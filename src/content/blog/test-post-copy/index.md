@@ -1,9 +1,9 @@
 ---
-title: "Test Post"
+title: "Photograph"
 tags: ["Test", "Post"]
 description: "Test post"
 author: "Mary Sue"
-date: "2019-09-24"
+# date: "2019-09-24"
 ---
 
 This is testing the creation of a second post. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget augue commodo, rutrum enim vel, varius lorem. Ut nec sem metus. Cras laoreet, metus consectetur mollis consectetur, dui ante tempus ante, eget luctus felis odio sed leo. Sed tempus, ex ultrices porttitor fringilla, enim tellus dictum elit, quis viverra odio orci eu erat. Maecenas auctor ultrices ornare. Mauris consequat a urna in cursus.

@@ -1,5 +1,5 @@
 ---
-title: "Hello World"
+title: "Country quiz"
 tags: ["Hello", "World", "First", "Post"]
 description: "999"
 author: "John Doe"
