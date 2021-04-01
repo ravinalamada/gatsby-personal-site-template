@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { graphql } from "gatsby"
 import { PageLayout, PageTitle, BlogLink } from "../components"
 import { SEO, Utils } from "../utils"
-import { Container } from "react-bootstrap"
+import { Container, Form, FormControl } from "react-bootstrap"
 
 export default ({ data }) => {
   const [state, setState] = useState({
@@ -56,6 +56,8 @@ export default ({ data }) => {
               featuredImage={featuredImageMap[node.fields.slug]}
               title={node.frontmatter.title}
               subtitle={node.frontmatter.date}
+              demo={node.frontmatter.demo}
+              solution={node.frontmatter.solution}
               excerpt={node.excerpt}
             />
           </div>
@@ -80,6 +82,8 @@ export const query = graphql`
             description
             tags
             author
+            demo
+            solution
             date(formatString: "DD MMMM, YYYY")
           }
           fields {

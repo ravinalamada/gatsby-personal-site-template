@@ -8,7 +8,7 @@ export default ({ title, excerpt, html, subTitle, img}) => (
     <SEO title={title} description={excerpt} />
     <Container className="text-center" fluid>
       <PageTitle title={title} />
-      {/* {subTitle} */}
+      {subTitle}
       <Container className="text-justify">
       <div dangerouslySetInnerHTML={{ __html: html }} />
       </Container>

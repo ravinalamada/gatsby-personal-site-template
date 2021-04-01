@@ -105,3 +105,38 @@ body {
 .unemployed {
   font-size: 1.35rem;
 }
+
+.link--wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.demo--link,
+.solution--link {
+ display: flex;
+ flex-direction: column;
+}
+
+.netlify--icon,
+.github--icon {
+  max-width: 36px;
+  max-height: 36px;
+}
+
+.dark-title,
+.white-title {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 59px;
+}
+
+.white-title {
+  background-color: darkgray;
+}
+
+.dark-title {
+  background-color: lightgrey;
+}

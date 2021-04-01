@@ -10,11 +10,7 @@ export default () => {
   return (
     <Navbar variant={toString()} fixed="top" collapseOnSelect expand="md">
       <Navbar.Brand className="pl-5 ml-5" as={Link} to="/">
-        <FontAwesomeIcon
-          icon={["fab", `${dark ? "empire" : "rebel"}`]}
-          className={`brand-icon ${dark ? "empire" : "rebel"}`}
-          title="Home"
-        />
+        <p className={dark ? 'dark-title' : 'white-title'}>P.M.R</p>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse

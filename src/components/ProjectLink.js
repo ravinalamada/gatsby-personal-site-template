@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Img from "gatsby-image"
 import { Container, Badge, Col, Row } from "react-bootstrap"
 
-export default ({ excerpt, featuredImages, tags, title, to }) => {
+export default ({ excerpt, featuredImages, tags, title, to, demo, solution }) => {
   return (
     <Container className="text-center">
       <Link to={to} style={{ textDecoration: "none" }}>

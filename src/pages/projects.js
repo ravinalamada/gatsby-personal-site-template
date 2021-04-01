@@ -22,6 +22,8 @@ export default ({ data }) => {
                 to={node.fields.slug}
                 featuredImages={featuredImageMap[node.fields.slug]}
                 title={node.frontmatter.title}
+                demo={node.frontmatter.demo}
+                solution={node.frontmatter.solution}
                 tags={node.frontmatter.tags}
                 excerpt={node.excerpt}
               />
@@ -49,6 +51,8 @@ export const query = graphql`
             title
             description
             tags
+            demo
+            solution
             date(formatString: "DD MMMM, YYYY")
           }
           fields {
