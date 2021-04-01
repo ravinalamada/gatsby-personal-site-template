@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { graphql } from "gatsby"
 import { PageLayout, PageTitle, BlogLink } from "../components"
 import { SEO, Utils } from "../utils"
-import { Container, Form, FormControl } from "react-bootstrap"
+import { Container } from "react-bootstrap"
 
 export default ({ data }) => {
   const [state, setState] = useState({
@@ -43,18 +43,8 @@ export default ({ data }) => {
 
   return (
     <PageLayout>
-      <SEO title="Blog" />
-      <PageTitle title="My Blog" />
-      <Container className="px-5 mb-5 text-center">
-        <Form className="aurebesh blog-filter">
-          <FormControl
-            className="bg-none search"
-            type="text"
-            placeholder="Search"
-            onChange={handleChange}
-          />
-        </Form>
-      </Container>
+      <SEO title="Projects" />
+      <PageTitle title="My Projects" />
       <Container
         fluid
         className="p-3 w-auto text-left d-flex flex-wrap justify-content-center"

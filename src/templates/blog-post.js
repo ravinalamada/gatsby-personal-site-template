@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
-import PostTemplate from "./post-template"
+import PostTemplate from "./post-template";
+import { SEO, Utils } from "../utils"
 
 const SubTitle = ({ ttr, date, author }) => (
   <h5 className="text-muted mb-5">
@@ -9,9 +10,11 @@ const SubTitle = ({ ttr, date, author }) => (
 )
 
 export default ({ data }) => {
+  console.log(data)
   const post = data.markdownRemark
   return (
     <PostTemplate
+      img={post.frontmatter.img}
       title={post.frontmatter.title}
       subTitle={
         <SubTitle
@@ -34,6 +37,7 @@ export const query = graphql`
         title
         author
         date(formatString: "DD MMMM, YYYY")
+        img
       }
       excerpt
       timeToRead
