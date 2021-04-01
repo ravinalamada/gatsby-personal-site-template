@@ -47,13 +47,11 @@ export default ({ data }) => {
             ))}
           </p>
           <p className="i-5 mt-4 pt-2">
-            Hello there! My name is <b>{`${author}`}</b>. I am a&nbsp;
-            <b>{occupation}</b> who is passionate to build a meaningful stuff.
+            Hello there! My name is <b>{`${author}`}</b>. I am 24 years old. I have learnt and coded for about 2 years and more programming. I am a&nbsp;
+            <b>{occupation}</b> who is passionate to build a meaningful stuff. I am from Madagascar, and I grew up in Brickaville which is a district of Est region. I am not really a sporty woman but I don't mind exercising from time to time. Listening to music is my favourite hobby, and Celine dion is my favourite singer.
           </p>
           <p className="i-5">
-          </p>
-          <p className="i-5">
-            Check out my <Link to="/projects">projects</Link> to see what I've
+            Check out my <Link to="/blog">projects</Link> to see what I've
             been up to!
           </p>
         </article>

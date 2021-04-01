@@ -1,9 +1,11 @@
-import React from "react"
+import React, {useContext} from "react"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 import Card from "react-bootstrap/Card"
+import ThemeContext from "../utils/theme"
 
 export default props => {
+  const { dark } = useContext(ThemeContext)
   return (
     <Card className="card-container" >
       {/* <Link to={props.to}> */}
@@ -23,7 +25,10 @@ export default props => {
             <span>Demo</span>
           </a>
           <a className="solution--link" href={`https:${props.solution}`}>
-            <img className="github--icon" src="../../icons/github-icons-black.svg" alt="github"/>
+            { dark
+              ? <img className="github--icon" src="../../icons/github-icons-black.svg" alt="github"/>
+              : <img className="github--icon" src="../../icons/github-icon-black.jpg" alt="github"/>
+            }
             <span>Solution</span>
           </a>
         </div>

@@ -13,7 +13,7 @@ export default ({ data }) => {
   return (
     <PageLayout>
       <SEO title="Projects" />
-      <PageTitle title="Projects" />
+      <PageTitle title="My Projects" />
       <Container className="text-left">
         <section>
           {allProjects.map(({ node }) => (
