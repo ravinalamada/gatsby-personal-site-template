@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'feature.jpg',
     title: 'Country quiz',
-    info: 'It is a website that are used to help people to know all of the countries in the world.',
+    info: 'It is an app that is built with react, context API and sass. It helps people to know all of the countries in the world.',
     info2: '',
     url: "https://prisca-country-quiz.netlify.app/",
     repo: 'https://github.com/ravinalamada/country-quiz', // if no repo, the button will not show up
@@ -48,7 +48,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'photograph-screenshot.jpg',
     title: 'Photograph',
-    info: 'It shows the pictures that we have took.',
+    info: 'It is a website that shows a picture which we have taken. It is built with html, css, sass.',
     info2: '',
     url: 'https://prisca-photograph.netlify.app/',
     repo: 'https://github.com/ravinalamada/front-end-finals', // if no repo, the button will not show up
@@ -68,16 +68,6 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
       url: '',
     },
     {
