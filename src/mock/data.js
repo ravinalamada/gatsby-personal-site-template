@@ -1,84 +1,88 @@
-import { nanoid } from 'nanoid';
+import { nanoid } from "nanoid"
 
 // HEAD DATA
 export const headData = {
-  title: 'I am a front-end developer', // e.g: 'Name | Developer'
-  lang: 'en, fr', // e.g: en, es, fr, jp
-  description: 'Welcome to my website', // e.g: Welcome to my website
-};
+  title: "I am a front-end developer",
+  lang: "en, fr",
+  description: "Welcome to my website",
+}
 
 // HERO DATA
 export const heroData = {
-  title: 'Hello there!',
-  name: 'My name is Prisca Marie Roseline',
-  subtitle: 'I am a front-end developer who is passionate about building a meaningful thing for this world.',
-  cta: '',
-};
+  name: "My name is Prisca Roseline.",
+  subtitle: "I am a front-end developer.",
+  cta: "",
+}
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
-};
+  img: "profile.jpg",
+  paragraphOne:
+    "I am a front-end developer who graduates from Onja. I grew up in Brickaville which is a district in the Est region of Madagascar but I live in Mahanoro at the moment, in where Onja is based.",
+  paragraphTwo:
+    "I'm highly energetic and more importantly, I am always keen on learning new things however important it is.",
+  paragraphThree:
+    "I'm confident with HTML, CSS/SASS, React and vanilla Javascript, and I'm still excited to strenghen and add these skills whenever it's necessary. I'd like to work with company or team which appreciates me and I can contribute in the long term anywhere in the world.",
+}
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'feature.jpg',
-    title: 'Country quiz',
-    info: 'It is an app that is built with react, context API and sass. It helps people to know all of the countries in the world.',
-    info2: '',
+    img: "country-quiz.png",
+    title: "Country quiz",
+    info:
+      "It is an app that is built with react, context API and sass. It helps people learn the name of the countries in the world and their capital.",
+    info2: "",
     url: "https://prisca-country-quiz.netlify.app/",
-    repo: 'https://github.com/ravinalamada/country-quiz', // if no repo, the button will not show up
+    repo: "https://github.com/ravinalamada/country-quiz",
   },
   {
     id: nanoid(),
-    img: 'birthday-app.jpg',
-    title: 'Bithday app',
-    info: 'An App that helps you to remember birthday dates of your friends',
-    info2: '',
-    url: 'https://birthday-app-prisca.netlify.app/',
-    repo: 'https://github.com/ravinalamada/birthday-app', // if no repo, the button will not show up
+    img: "birthday-app.png",
+    title: "Bithday app",
+    info:
+      "I built this CRUD app using ES6 and ES2020. It helps users to remember people's upcoming birthday who are added in the App. It's built with js, css, and html.",
+    url: "https://birthday-app-prisca.netlify.app/",
+    repo: "https://github.com/ravinalamada/birthday-app",
   },
   {
     id: nanoid(),
-    img: 'photograph-screenshot.jpg',
-    title: 'Photograph',
-    info: 'It is a website that shows a picture which we have taken. It is built with html, css, sass.',
-    info2: '',
-    url: 'https://prisca-photograph.netlify.app/',
-    repo: 'https://github.com/ravinalamada/front-end-finals', // if no repo, the button will not show up
+    img: "photograph-screenshot.jpg",
+    title: "Photograph",
+    info:
+      "This is a website that shows a picture which have been taken. It is built from scratch using semantic HTML, CSS3 and SASS to create a responsive single webpage following BEM notation.",
+    info2:
+      "There are also some functionalities which are based on vanilla Javascript such as the image slider.",
+    url: "https://prisca-photograph.netlify.app/",
+    repo: "https://github.com/ravinalamada/front-end-finals",
   },
-];
+]
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: 'prisca.ros@onja.org',
-};
+  cta: "",
+  btn: "",
+  email: "prisca.ros@onja.org",
+}
 
 // FOOTER DATA
 export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
+      name: "twitter",
+      url: "",
     },
     {
       id: nanoid(),
-      name: 'github',
-      url: 'https://github.com/ravinalamada',
+      name: "github",
+      url: "https://github.com/ravinalamada",
     },
   ],
-};
+}
 
 // Github start/fork buttons
 export const githubButtons = {
   isEnabled: true, // set to false to disable the GitHub stars/fork buttons
-};
+}
