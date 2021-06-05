@@ -18,7 +18,7 @@ export const heroData = {
 export const aboutData = {
   img: "profile.jpg",
   paragraphOne:
-    "I am a front-end developer who graduates from Onja. I grew up in Brickaville which is a district in the Est region of Madagascar but I live in Mahanoro at the moment, in where Onja is based.",
+    "I am a front-end developer who graduates from Onja. I grew up in Brickaville which is a district in the East region of Madagascar but I live in Mahanoro at the moment, in where Onja is based.",
   paragraphTwo:
     "I'm highly energetic and more importantly, I am always keen on learning new things however important it is.",
   paragraphThree:
