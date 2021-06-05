@@ -31,9 +31,9 @@ export const projectsData = [
     id: nanoid(),
     img: "country-quiz.png",
     title: "Country quiz",
-    info:
-      "It is an app that is built with react, context API and sass. It helps people learn the name of the countries in the world and their capital.",
-    info2: "",
+    info: "It is an app that was built with react, context API and sass.",
+    info2:
+      "It helps people learn the name of the countries in the world and their capital.",
     url: "https://prisca-country-quiz.netlify.app/",
     repo: "https://github.com/ravinalamada/country-quiz",
   },
@@ -42,7 +42,9 @@ export const projectsData = [
     img: "birthday-app.png",
     title: "Bithday app",
     info:
-      "I built this CRUD app using ES6 and ES2020. It helps users to remember people's upcoming birthday who are added in the App. It's built with js, css, and html.",
+      "I built this CRUD app from scratch using ES6 and ES2020. It's built with vanilla Javascript, css, and html.",
+    info2:
+      "It helps users to remember people's upcoming birthday who are added in the App.",
     url: "https://birthday-app-prisca.netlify.app/",
     repo: "https://github.com/ravinalamada/birthday-app",
   },
