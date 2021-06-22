@@ -73,11 +73,6 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: "twitter",
-      url: "",
-    },
-    {
-      id: nanoid(),
       name: "github",
       url: "https://github.com/ravinalamada",
     },
