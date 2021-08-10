@@ -18,11 +18,11 @@ export const heroData = {
 export const aboutData = {
   img: "profile.jpg",
   paragraphOne:
-    "I am a front-end developer who graduates from Onja. I grew up in Brickaville which is a district in the East region of Madagascar but I live in Mahanoro at the moment, in where Onja is based.",
+    "I am a front-end developer who graduated from Onja. I grew up in Brickaville which is in the East region of Madagascar but I live in Mahanoro at the moment, where Onja is based.",
   paragraphTwo:
-    "I'm highly energetic and more importantly, I am always keen on learning new things however important it is.",
+    "I'm highly energetic and more importantly, I am always keen on learning new things.",
   paragraphThree:
-    "I'm confident with HTML, CSS/SASS, React and vanilla Javascript, and I'm still excited to strenghen and add these skills whenever it's necessary. I'd like to work with company or team which appreciates me and I can contribute in the long term anywhere in the world.",
+    "I'm confident working with HTML, CSS/SASS, React and vanilla Javascript. And I'm eager to apply these skills in a company which values my skills in order to both contribute to the company to reach their goals and grow. I also believe every situation is an opportunity to learn and challenge what I have acquired.",
 }
 
 // PROJECTS DATA
@@ -40,7 +40,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: "birthday-app.png",
-    title: "Bithday app",
+    title: "Birthday app",
     info:
       "I built this CRUD app from scratch using ES6 and ES2020. It's built with vanilla Javascript, css, and html.",
     info2:
