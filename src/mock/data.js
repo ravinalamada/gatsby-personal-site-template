@@ -59,6 +59,18 @@ export const projectsData = [
     url: "https://prisca-photograph.netlify.app/",
     repo: "https://github.com/ravinalamada/front-end-finals",
   },
+  {
+    id: nanoid(),
+    img: "learn-gasy.png",
+    title: "Learn Malagasy",
+    info:
+      "This is a flashcard app that helps Malagasy speakers learn English and English Speakers learn Malagasy.",
+    info2:
+      "It is built with react native and redux for managing the reactive state.",
+    url:
+      "https://play.google.com/store/apps/details?id=com.learngasy&hl=en&gl=US",
+    repo: "https://github.com/ravinalamada/malagasy-rn-Bismuth",
+  },
 ]
 
 // CONTACT DATA
