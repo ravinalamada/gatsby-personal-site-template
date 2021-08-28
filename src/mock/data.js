@@ -18,11 +18,11 @@ export const heroData = {
 export const aboutData = {
   img: "profile.jpg",
   paragraphOne:
-    "I am a front-end developer who graduated from Onja. I grew up in Brickaville which is in the East region of Madagascar but I live in Mahanoro at the moment, where Onja is based.",
+    "I am a front-end developer who graduated from Onja, a social enterprise in Madagascar that trains underprivileged, talented young people into software developers. I grew up in Brickaville which is in the East region of Madagascar in a small village.",
   paragraphTwo:
     "I'm highly energetic and more importantly, I am always keen on learning new things.",
   paragraphThree:
-    "I'm confident working with HTML, CSS/SASS, React and vanilla Javascript. And I'm eager to apply these skills in a company which values my skills in order to both contribute to the company to reach their goals and grow. I also believe every situation is an opportunity to learn and challenge what I have acquired.",
+    "I'm confident working with HTML, CSS/SASS, Vanilla JS, React, Typescript and React Native. And I'm eager to apply these skills in a company which values my skills in order to both contribute to the company to reach their goals and grow. I also believe every situation is an opportunity to learn and challenge what I have acquired.",
 }
 
 // PROJECTS DATA
@@ -31,9 +31,9 @@ export const projectsData = [
     id: nanoid(),
     img: "country-quiz.png",
     title: "Country quiz",
-    info: "It is an app that was built with react, context API and sass.",
+    info: "It is an app that was built with react, context API and SASS.",
     info2:
-      "It helps people learn the name of the countries in the world and their capital.",
+      "It helps people learn the names of various countries in the world and their capitals.",
     url: "https://prisca-country-quiz.netlify.app/",
     repo: "https://github.com/ravinalamada/country-quiz",
   },
@@ -53,7 +53,7 @@ export const projectsData = [
     img: "photograph-screenshot.jpg",
     title: "Photograph",
     info:
-      "This is a website that shows a picture which have been taken. It is built from scratch using semantic HTML, CSS3 and SASS to create a responsive single webpage following BEM notation.",
+      "I built this landing page from scratch using semantic HTML, CSS3 and SASS to create a responsive single webpage following BEM notation.",
     info2:
       "There are also some functionalities which are based on vanilla Javascript such as the image slider.",
     url: "https://prisca-photograph.netlify.app/",
