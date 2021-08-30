@@ -29,6 +29,28 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: "learn-gasy.png",
+    title: "Learn Malagasy",
+    info:
+      "This is a flashcard app that helps Malagasy speakers learn English and English Speakers learn Malagasy.",
+    info2: "It is built with react native and redux for managing state..",
+    url:
+      "https://play.google.com/store/apps/details?id=com.learngasy&hl=en&gl=US",
+    repo: "https://github.com/ravinalamada/malagasy-rn-Bismuth",
+  },
+  {
+    id: nanoid(),
+    img: "vamalaka.png",
+    title: "Vamalaka",
+    info:
+      "This is a platform that users can use to sell products in Madagascar, cutting out the middle man and their fees.",
+    info2:
+      "It is built with React and TypeScript. Redux-toolkit is used to manage the reactive state.",
+    url: "https://vamalaka-nivia.vercel.app/",
+    repo: "https://github.com/onja-org/vamalaka-nivia",
+  },
+  {
+    id: nanoid(),
     img: "country-quiz.png",
     title: "Country quiz",
     info: "It is an app that was built with react, context API and SASS.",
@@ -58,29 +80,6 @@ export const projectsData = [
       "There are also some functionalities which are based on vanilla Javascript such as the image slider.",
     url: "https://prisca-photograph.netlify.app/",
     repo: "https://github.com/ravinalamada/front-end-finals",
-  },
-  {
-    id: nanoid(),
-    img: "learn-gasy.png",
-    title: "Learn Malagasy",
-    info:
-      "This is a flashcard app that helps Malagasy speakers learn English and English Speakers learn Malagasy.",
-    info2:
-      "It is built with react native and redux for managing the reactive state.",
-    url:
-      "https://play.google.com/store/apps/details?id=com.learngasy&hl=en&gl=US",
-    repo: "https://github.com/ravinalamada/malagasy-rn-Bismuth",
-  },
-  {
-    id: nanoid(),
-    img: "vamalaka.png",
-    title: "Vamalaka",
-    info:
-      "This is a platform that a user can use to sell or buy any products in Madagascar.",
-    info2:
-      "It is built with React and redux-toolkit is used to manage the reactive state.",
-    url: "https://vamalaka-nivia.vercel.app/",
-    repo: "https://github.com/onja-org/vamalaka-nivia",
   },
 ]
 
