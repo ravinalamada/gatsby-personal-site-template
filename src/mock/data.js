@@ -36,7 +36,7 @@ export const projectsData = [
     info2: "It is built with react native and redux for managing state..",
     url:
       "https://play.google.com/store/apps/details?id=com.learngasy&hl=en&gl=US",
-    repo: "https://github.com/ravinalamada/malagasy-rn-Bismuth",
+    repo: "https://github.com/onja-org/malagasy-rn-Bismuth",
   },
   {
     id: nanoid(),
