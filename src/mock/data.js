@@ -16,7 +16,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: "profile.jpg",
+  img: "bw-profile.jpg",
   paragraphOne:
     "I am a front-end developer who graduated from Onja, a social enterprise in Madagascar that trains underprivileged, talented young people into software developers. I grew up in Brickaville which is in the East region of Madagascar in a small village.",
   paragraphTwo:
@@ -70,6 +70,17 @@ export const projectsData = [
     url:
       "https://play.google.com/store/apps/details?id=com.learngasy&hl=en&gl=US",
     repo: "https://github.com/ravinalamada/malagasy-rn-Bismuth",
+  },
+  {
+    id: nanoid(),
+    img: "vamalaka.png",
+    title: "Vamalaka",
+    info:
+      "This is a platform that a user can use to sell or buy any products in Madagascar.",
+    info2:
+      "It is built with React and redux-toolkit is used to manage the reactive state.",
+    url: "https://vamalaka-nivia.vercel.app/",
+    repo: "https://github.com/onja-org/vamalaka-nivia",
   },
 ]
 
