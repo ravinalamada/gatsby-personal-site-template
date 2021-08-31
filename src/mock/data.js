@@ -33,7 +33,8 @@ export const projectsData = [
     title: "Learn Malagasy",
     info:
       "This is a flashcard app that helps Malagasy speakers learn English and English Speakers learn Malagasy.",
-    info2: "It is built with react native and redux for managing state..",
+    info2:
+      "It is built with react native and redux for managing state. It's available on the app store",
     url:
       "https://play.google.com/store/apps/details?id=com.learngasy&hl=en&gl=US",
     repo: "https://github.com/onja-org/malagasy-rn-Bismuth",
