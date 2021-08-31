@@ -30,19 +30,21 @@ export const projectsData = [
   {
     id: nanoid(),
     img: "learn-gasy.png",
-    title: "Learn Malagasy",
+    title: "React Native App - Learn Malagasy",
     info:
       "This is a flashcard app that helps Malagasy speakers learn English and English Speakers learn Malagasy.",
     info2:
       "It is built with react native and redux for managing state. It's available on the app store",
     url:
       "https://play.google.com/store/apps/details?id=com.learngasy&hl=en&gl=US",
+    url2:
+      "https://play.google.com/store/apps/details?id=com.learngasy&hl=en&gl=US",
     repo: "https://github.com/onja-org/malagasy-rn-Bismuth",
   },
   {
     id: nanoid(),
     img: "vamalaka.png",
-    title: "Vamalaka",
+    title: "Ecommerce trading platform - Vamalaka",
     info:
       "This is a platform that users can use to sell products in Madagascar, cutting out the middle man and their fees.",
     info2:
@@ -53,7 +55,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: "country-quiz.png",
-    title: "Country quiz",
+    title: "React App - Country Quiz",
     info: "It is an app that was built with react, context API and SASS.",
     info2:
       "It helps people learn the names of various countries in the world and their capitals.",
@@ -63,7 +65,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: "birthday-app.png",
-    title: "Birthday app",
+    title: "VanillaJS App - Birthday Reminder",
     info:
       "I built this CRUD app from scratch using ES6 and ES2020. It's built with vanilla Javascript, css, and html.",
     info2:
@@ -74,7 +76,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: "photograph-screenshot.jpg",
-    title: "Photograph",
+    title: "Photography site landing page",
     info:
       "I built this landing page from scratch using semantic HTML, CSS3 and SASS to create a responsive single webpage following BEM notation.",
     info2:
