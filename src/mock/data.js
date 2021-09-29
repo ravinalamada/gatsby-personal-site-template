@@ -49,7 +49,7 @@ export const projectsData = [
       "This is a platform that users can use to sell products in Madagascar, cutting out the middle man and their fees.",
     info2:
       "It is built with React and TypeScript. Redux-toolkit is used to manage the reactive state.",
-    url: "https://vamalaka-mahanoro.vercel.app/",
+    url: "",
     repo: "https://github.com/onja-org/vamalaka-nivia",
   },
   {
