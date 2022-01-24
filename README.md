@@ -50,33 +50,6 @@ See me [live!](https://gatsby-starter-portfolio.herokuapp.com/)
 - SEO with Gatsby: https://gregberge.com/blog/gatsby-seo
 - Gatsby: https://www.gatsbyjs.org/docs/
 
-### Lighthouse screenshots
-
-![Test 1](./assets/test-1.png)
-![Test 2](./assets/test-2.png)
-
-### App Screenshots
-
-Light Mode\
-<img src="./assets/light-mode.png" alt="Light Mode" width="700">
-<br><br>
-Dark Mode\
-<img src="./assets/dark-mode.png" alt="Dark Mode" width="700">
-
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's hello-world starter
-</h1>
-
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
-
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
